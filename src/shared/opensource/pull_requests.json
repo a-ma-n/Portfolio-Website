@@ -1,0 +1,58 @@
+{
+  "closed": 0,
+  "data": [
+    {
+      "id": "PR_kwDOGN5gGM48KkY3",
+      "title": "middleware restored",
+      "url": "https://github.com/ShapeAI/Product/pull/37",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70897225?v=4",
+        "url": "https://github.com/Kartik18g",
+        "login": "Kartik18g"
+      },
+      "createdAt": "2022-07-27T09:16:05Z",
+      "number": 37,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "Product",
+        "url": "https://github.com/ShapeAI/Product",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/69104283?v=4",
+          "login": "ShapeAI",
+          "url": "https://github.com/ShapeAI"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOGN5gGM48Fnhl",
+      "title": "getstudentdetails api",
+      "url": "https://github.com/ShapeAI/Product/pull/36",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70897225?v=4",
+        "url": "https://github.com/Kartik18g",
+        "login": "Kartik18g"
+      },
+      "createdAt": "2022-07-26T06:30:54Z",
+      "number": 36,
+      "changedFiles": 4,
+      "additions": 436,
+      "deletions": 403,
+      "baseRepository": {
+        "name": "Product",
+        "url": "https://github.com/ShapeAI/Product",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/69104283?v=4",
+          "login": "ShapeAI",
+          "url": "https://github.com/ShapeAI"
+        }
+      }
+    }
+  ],
+  "merged": 2,
+  "open": 0,
+  "totalCount": 2
+}

@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "login": "STCVIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80917835?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "ShapeAI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69104283?v=4",
+      "__typename": "Organization"
+    }
+  ]
+}
