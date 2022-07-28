@@ -195,7 +195,7 @@ const degrees = {
       subtitle: "B.Tech. in Computer Engineering",
       logo_path: "logo.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      duration: "2020 - Present",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on DEV OPs and Full Stack Development.",
