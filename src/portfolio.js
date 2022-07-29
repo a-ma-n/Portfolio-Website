@@ -419,7 +419,7 @@ const experience = {
         {
           title: "Amazon ML Summer School Participant",
           company: "Amazon",
-          company_url: "https://stcvit.in/",
+          company_url: "https://www.amazon.in/",
           logo_path: "amazon.png",
           duration: "February 2022 - July 2022",
           location: "",
@@ -484,7 +484,7 @@ const experience = {
         {
           title: "Runner Up in the internal MLSA Pitching Competition",
           company: "Microsoft Learn Student Ambassadors",
-          company_url: "https://stcvit.in/",
+          company_url: "",
           logo_path: "mlsabadge.jpeg",
           duration: "October 2021",
           location: "",
