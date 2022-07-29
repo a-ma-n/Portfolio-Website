@@ -353,7 +353,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've have a great experience of working with these companies & creating impact, which in turn has helped me a lot to explore my skillset and gain exposure.",
+    "I have a great experience of working with these companies & creating impact, which in turn has helped me a lot to explore my skillset and gain exposure.",
   header_image_path: "experience.svg",
   sections: [
     {
