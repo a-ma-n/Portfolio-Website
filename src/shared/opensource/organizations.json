@@ -1,13 +1,58 @@
 {
   "data": [
     {
+      "login": "firebase",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1335026?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "microsoft",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "projectX-india",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61613101?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "hashgraph",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31002956?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "ISTE-VIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60400682?v=4",
+      "__typename": "Organization"
+    },
+    {
       "login": "STCVIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/80917835?v=4",
       "__typename": "Organization"
     },
     {
-      "login": "ShapeAI",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/69104283?v=4",
+      "login": "ITESA-DYPCOE",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77391630?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "CodeChefVIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31820857?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Bella-ciaoo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/98172803?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Kya-Matlab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106398754?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Bonn-Voyage",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106869083?v=4",
       "__typename": "Organization"
     }
   ]

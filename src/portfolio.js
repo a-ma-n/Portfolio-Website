@@ -7,73 +7,123 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Tanmay's Portfolio",
+  title: "Aman's Portfolio",
   description:
-    "I am someone who finds joy in making life easier, by finding solutions to everyday problems. I like incorporating technology with accessibility, and this defines my style. I take inspiration from nature and believe in roots of simplicity.",
+    "A curious student dabbling in the field of machine learning and android development. I'm always ready to take up projects and determined to complete them successfully. I love to interact with people by taking webinars, hosting sessions, participating and mentoring in hackathons. My hobbies and interests range from pop songs to brain machine interfaces.",
   og: {
-    title: "Tanmay Shah's Portfolio",
+    title: "Aman Ali's Portfolio",
     type: "website",
-    url: "https://github.com/shah-tanmay",
+    url: "https://github.com/a-ma-n",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Tanmay Shah",
-  logo_name: "TanmayShah",
-  nickname: "Bard of JSON 📝",
+  title: "Aman Ali Siddiqui",
+  logo_name: "AmanAli",
+  nickname: "Spotify Guy",
   subTitle:
-    "I am someone who finds joy in making life easier, by finding solutions to everyday problems. I like incorporating technology with accessibility, and this defines my style. I take inspiration from nature and believe in roots of simplicity.",
-  resumeLink:
-    "https://drive.google.com/file/d/1RCcnSkcPQXqATFCzI3c15nUbbRE1w5cU/view?usp=sharing",
-  portfolio_repository: "https://github.com/shah-tanmay",
-  githubProfile: "https://github.com/shah-tanmay",
+    "A curious student dabbling in the field of machine learning and android development. I'm always ready to take up projects and determined to complete them successfully. I love to interact with people by taking webinars, hosting sessions, participating and mentoring in hackathons. My hobbies and interests range from pop songs to brain machine interfaces.",
+  resumeLink: "https://bit.ly/Aman_Ali_Siddiqui_Resume",
+  portfolio_repository: "https://github.com/a-ma-n",
+  githubProfile: "https://github.com/a-ma-n",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/shah-tanmay",
+    link: "https://github.com/a-ma-n",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/tanmay-shah-9b0314205/",
+    link: "https://www.linkedin.com/in/https://www.linkedin.com/in/-aman/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
-    link: "mailto:shahhtanmay @gmail.com",
+    link: "mailto:amanalisiddiqui.contact@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ishahtanmay",
+    link: "https://twitter.com/NotOkAman",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/ishahtanmay/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Machine Learning, Android & Devops",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Capable of developing complicated applications using advanced technologies like GraphQL and also develop apps using Flutter",
-        "⚡ Creating application backend in Node, MongoDB",
+        "📍 Training Machine Learning models and deploying them using Docker and Microsoft Azure",
+        "📍 Experienced with creating Android Applications with  Kotlin and Firebase",
+        "📍 Analysing and tuning Data Science Projects, Machine Learning & Deep Learing Models using tensorflow",
+        "📍 Process images with OpenCV and Deep Learning Models",
       ],
       softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Sci-Kit Learn",
+          fontAwesomeClassname: "simple-icons:scikit-learn",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#1DA1F2",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
+          style: {
+            color: "##00599C",
+          },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: {
+            color: "##FF7800",
+          },
+        },
+        {
+          skillName: "Kotlin",
+          fontAwesomeClassname: "simple-icons:kotlin",
+          style: {
+            color: "##7F52FF",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -88,13 +138,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -104,45 +148,31 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "OpenCV",
+          fontAwesomeClassname: "simple-icons:opencv",
           style: {
-            color: "#61DAFB",
+            color: "#5C3EE8",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Github",
+          fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#339933",
+            color: "#181717",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
           style: {
-            color: "#CB3837",
+            color: "#FF6C37",
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Google Colab",
+          fontAwesomeClassname: "simple-icons:googlecolab",
           style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            color: "#F9AB00",
           },
         },
       ],
@@ -159,7 +189,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/shahtanmay13",
+      profileLink: "https://www.hackerrank.com/aman_la_mart",
     },
     {
       siteName: "Codechef",
@@ -167,7 +197,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/shahtanmay13",
+      profileLink: "https://www.codechef.com/users/a_m_an",
     },
     {
       siteName: "Codeforces",
@@ -175,7 +205,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "https://codeforces.com/profile/shahtanmay",
+      profileLink: "https://codeforces.com/profile/a-ma-n",
     },
     {
       siteName: "Leetcode",
@@ -183,7 +213,7 @@ const competitiveSites = {
       style: {
         color: "#000000",
       },
-      profileLink: "https://leetcode.com/shahtanmay13/",
+      profileLink: "https://leetcode.com/a-ma-n/",
     },
   ],
 };
@@ -194,11 +224,11 @@ const degrees = {
       title: "Vellore Institute of Technology, Vellore",
       subtitle: "B.Tech. in Computer Engineering",
       logo_path: "logo.png",
-      alt_name: "IIITDM Kurnool",
+      alt_name: "Vellore Institute of Technology, Vellore",
       duration: "2020 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on DEV OPs and Full Stack Development.",
+        " 📍 I have studied various core Computer Science subjects like Data Structures, Algorithms, Operating Systems, Databases & Networks.",
+        " 📍 I actively engage with various communities and grow and learn with them. ",
       ],
       website_link: "https://vit.ac.in/",
     },
@@ -323,47 +353,142 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've Worked with couple of companies, and has helped me alot to explore all the skillset I posses.",
+    "I've have a great experience of working with these companies & creating impact, which in turn has helped me a lot to explore my skillset and gain exposure.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Internships",
       experiences: [
         {
-          title: "Full Stack Web Developer Intern",
-          company: "Kibitz Venturz",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "kibitz_logo.svg",
-          duration: "May 2021 - October 2022",
+          title: "Summer Intern",
+          company: "SAP Labs India",
+          company_url: "https://www.sap.com/india/about/labs-india.html",
+          logo_path: "saplabs.jpeg",
+          duration: "May 2022 - July 2022",
           location: "Remote",
           description:
-            "Leaded the project in Frontend as Well as the Backend Part. It was Built Using React, Firebase, Razorpay, Node.js",
+            "Spearheaded the development of ML-Launchpad and AI core SDK API endpoints, using the Python SDK and TypeScript. Worked on the API, which used HANA as the database and was deployed on Kubernetes. Extended an endpoint to recommend graphs to the users, depending on the metrics used by the Data Scientists.",
           color: "#0879bf",
         },
         {
-          title: "Full Stack Web Developer Internr",
-          company: "Muffito Incorporation",
+          title: "Machine Learning (Computer Vision) & EDGE devices Intern",
+          company: "Shoproxx Technologies Pvt. Ltd.",
           company_url: "https://www.prishapolicy.com/",
-          logo_path: "prishalogo.jpg",
-          duration: "August 2021 - November 2021",
+          logo_path: "shoprox.webp",
+          duration: "June 2021 - July 2021",
           location: "Remote",
           description:
-            "Developed an application which helps policy brokers to track all of their sales, and premium they generated. It was Built Using React, Tailwind, GraphQL.",
+            "Used Jetson Nano (EDGE device) to measure the quantity of stock (pizzas) required by a shop by capturing details from the camera.I was responsible for the machine learning model selection suitable for our use-case which was Mobilenet SSD - 14.0 MB.Calculated the metrics based on the data collected by the object detection model and used MongoDB for storing them, and setting up the routes using Flask.",
           color: "#9b1578",
         },
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Organisations",
       experiences: [
         {
-          title: "Studenct Technical Community",
-          company: "Google",
+          title: "Secretary",
+          company: "Indian Society for Technical Education",
+          company_url: "https://istevit.in/",
+          logo_path: "iste.png",
+          duration: "December 2020 - Present",
+          location: "VIT, Vellore",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title: "Gold Microsoft Learn Student Ambassador",
+          company: "Microsoft Learn",
+          company_url: "https://studentambassadors.microsoft.com/",
+          logo_path: "goldmlsa.jpeg",
+          duration: "April 2021 - Present",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title: "Edge Insiders Track Leader",
+          company: "Edge x MLSA Community",
+          company_url: "https://studentambassadors.microsoft.com/",
+          logo_path: "mlsabadge.jpeg",
+          duration: "October 2021 - Present",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title: "Amazon ML Summer School Participant",
+          company: "Amazon",
+          company_url: "https://stcvit.in/",
+          logo_path: "amazon.png",
+          duration: "February 2022 - July 2022",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title: "Core Member",
+          company: "Student Technical Community",
           company_url: "https://stcvit.in/",
           logo_path: "stclogo.png",
-          duration: "February 2022 - Present",
+          duration: "December 2020 - Present",
           location: "VIT, Vellore",
-          description: "Vice President Technical.",
+          description: "",
+          color: "#4285F4",
+        },
+      ],
+    },
+    {
+      title: "Achievements",
+      experiences: [
+        {
+          title: "3rd at GDSC NMIMS Hackathon",
+          company: "GDSC NMIMS",
+          company_url: "",
+          logo_path: "gdscnmims.png",
+          duration: "June 2022",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title: "3rd Honeywell  WIE-VIT Hackathon",
+          company: "Honeywell",
+          company_url: "",
+          logo_path: "honeywell.png",
+          duration: "April 2022",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title: "1st at the Unscript Rookies Hackathon",
+          company: "Fr. Conceicao Rodrigues College of Engineering, Bandra (W)",
+          company_url: "",
+          logo_path: "unscript.jpeg",
+          duration: "January 2022",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title: "1st Position in I3 Skillship Vellore",
+          company: "Skillship vellore",
+          company_url: "",
+          logo_path: "skillship.png",
+          duration: "December 2021",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title: "Runner Up in the internal MLSA Pitching Competition",
+          company: "Microsoft Learn Student Ambassadors",
+          company_url: "https://stcvit.in/",
+          logo_path: "mlsabadge.jpeg",
+          duration: "October 2021",
+          location: "",
+          description: "",
           color: "#4285F4",
         },
       ],
@@ -390,9 +515,9 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile.png",
+    profile_image_path: "amanprofile.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React , Flutter, Cloud and Opensource Development.",
+      " You can hit me up on these social media channels,and I will reply within 24 hours. I can help you with Machine Learning,Deep Learning , Android Development, Cloud , Devops & Data Structures and Algorithms.",
   },
 };
 
