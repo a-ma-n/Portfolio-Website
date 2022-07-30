@@ -175,6 +175,13 @@ const skills = {
             color: "#F9AB00",
           },
         },
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "simple-icons:tensorflow",
+          style: {
+            color: "#F9AB00",
+          },
+        },
       ],
     },
   ],
