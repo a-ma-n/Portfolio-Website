@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Aman Ali Siddiqui",
   logo_name: "AmanAli",
-  nickname: "Spotify Guy",
+  nickname: "",
   subTitle:
     "A curious student dabbling in the field of machine learning and android development. I'm always ready to take up projects and determined to complete them successfully. I love to interact with people by taking webinars, hosting sessions, participating and mentoring in hackathons. My hobbies and interests range from pop songs to brain machine interfaces.",
   resumeLink: "https://bit.ly/Aman_Ali_Siddiqui_Resume",
@@ -191,6 +191,22 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
+        siteName: "Leetcode",
+        iconifyClassname: "simple-icons:leetcode",
+        style: {
+          color: "#000000",
+        },
+        profileLink: "https://leetcode.com/a-ma-n/",
+      },
+      {
+        siteName: "Codechef",
+        iconifyClassname: "simple-icons:codechef",
+        style: {
+          color: "#5B4638",
+        },
+        profileLink: "https://www.codechef.com/users/a_m_an",
+      },
+    {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
@@ -198,14 +214,7 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/aman_la_mart",
     },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/a_m_an",
-    },
+    
     {
       siteName: "Codeforces",
       iconifyClassname: "simple-icons:codeforces",
@@ -214,14 +223,7 @@ const competitiveSites = {
       },
       profileLink: "https://codeforces.com/profile/a-ma-n",
     },
-    {
-      siteName: "Leetcode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#000000",
-      },
-      profileLink: "https://leetcode.com/a-ma-n/",
-    },
+    
   ],
 };
 
