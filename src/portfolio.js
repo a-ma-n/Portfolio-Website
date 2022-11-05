@@ -21,7 +21,6 @@ const seo = {
 const greeting = {
   title: "Aman Ali Siddiqui",
   logo_name: "AmanAli",
-  nickname: "",
   subTitle:
     "A curious student dabbling in the field of machine learning and android development. I'm always ready to take up projects and determined to complete them successfully. I love to interact with people by taking webinars, hosting sessions, participating and mentoring in hackathons. My hobbies and interests range from pop songs to brain machine interfaces.",
   resumeLink: "https://bit.ly/Aman_Ali_Siddiqui_Resume",
