@@ -24,7 +24,7 @@ const greeting = {
   nickname:"Aman",
   subTitle:
     "A curious student dabbling in the vast fields of Technology.",
-  resumeLink: "bit.ly/Aman-Alis-Resume",
+  resumeLink: "https://bit.ly/Aman-Alis-Resume",
   portfolio_repository: "https://github.com/a-ma-n",
   githubProfile: "https://github.com/a-ma-n",
 };
