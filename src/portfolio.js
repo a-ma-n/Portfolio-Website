@@ -59,7 +59,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Machine Learning, Android & Devops",
+      title: "Machine Learning, Android Development",
       fileName: "FullStackImg",
       skills: [
         "📍 Training Machine Learning models and deploying them using Docker and Microsoft Azure",
@@ -526,7 +526,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "amanprofile.png",
     description:
-      " You can hit me up on these social media channels,and I will reply within 24 hours. I can help you with Machine Learning,Deep Learning , Android Development, Cloud , Devops & Data Structures and Algorithms.",
+      " You can hit me up on these social media channels,and I will reply within 24 hours. I can help you with Machine Learning,Deep Learning , Android Development, Cloud & Data Structures and Algorithms.",
   },
 };
 
