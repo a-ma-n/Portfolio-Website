@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "Tanmays Portfolio",
-  "homepage": "https://shah-tanmay.github.io",
+  "name": "Amans Portfolio",
+  "homepage": "https://a-ma-n.github.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
