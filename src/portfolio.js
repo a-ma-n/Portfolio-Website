@@ -206,6 +206,14 @@ const competitiveSites = {
         },
         profileLink: "https://www.codechef.com/users/a_m_an",
       },
+      {
+        siteName: "Codeforces",
+        iconifyClassname: "simple-icons:codeforces",
+        style: {
+          color: "#1F8ACB",
+        },
+        profileLink: "https://codeforces.com/profile/a-ma-n",
+      },
     {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
@@ -214,15 +222,16 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/aman_la_mart",
     },
-    
     {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
+        siteName: "Kaggle",
+        iconifyClassname: "simple-icons:kaggle",
+        style: {
+          color: "#1F8ACB",
+        },
+        profileLink: "https://www.kaggle.com/amanalisiddiqui",
       },
-      profileLink: "https://codeforces.com/profile/a-ma-n",
-    },
+    
+    
     
   ],
 };
