@@ -20,10 +20,9 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Aman Ali Siddiqui",
-  logo_name: "AmanAli",
-  nickname:"Aman",
-  subTitle:
-    "A curious student dabbling in the vast fields of Technology.",
+  //   nickname:"Aman",
+  logo_name: "AS",
+  subTitle: "A curious student dabbling in the vast fields of Technology.",
   resumeLink: "https://bit.ly/Aman-Alis-Resume",
   portfolio_repository: "https://github.com/a-ma-n",
   githubProfile: "https://github.com/a-ma-n",
@@ -64,7 +63,7 @@ const skills = {
       skills: [
         "📍 Training Machine Learning models and deploying them using Docker and Microsoft Azure",
         "📍 Experienced with creating Android Applications with  Kotlin and Firebase",
-        "📍 Analysing and tuning Data Science Projects, Machine Learning & Deep Learing Models using tensorflow",
+        "📍 Analysing and tuning Data Science Projects, Machine Learning & Deep Learing Models using Tensorflow",
         "📍 Process images with OpenCV and Deep Learning Models",
       ],
       softwareSkills: [
@@ -191,29 +190,29 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-        siteName: "Leetcode",
-        iconifyClassname: "simple-icons:leetcode",
-        style: {
-          color: "#000000",
-        },
-        profileLink: "https://leetcode.com/a-ma-n/",
+      siteName: "Leetcode",
+      iconifyClassname: "simple-icons:leetcode",
+      style: {
+        color: "#000000",
       },
-      {
-        siteName: "Codechef",
-        iconifyClassname: "simple-icons:codechef",
-        style: {
-          color: "#5B4638",
-        },
-        profileLink: "https://www.codechef.com/users/a_m_an",
+      profileLink: "https://leetcode.com/a-ma-n/",
+    },
+    {
+      siteName: "Codechef",
+      iconifyClassname: "simple-icons:codechef",
+      style: {
+        color: "#5B4638",
       },
-      {
-        siteName: "Codeforces",
-        iconifyClassname: "simple-icons:codeforces",
-        style: {
-          color: "#1F8ACB",
-        },
-        profileLink: "https://codeforces.com/profile/a-ma-n",
+      profileLink: "https://www.codechef.com/users/a_m_an",
+    },
+    {
+      siteName: "Codeforces",
+      iconifyClassname: "simple-icons:codeforces",
+      style: {
+        color: "#1F8ACB",
       },
+      profileLink: "https://codeforces.com/profile/a-ma-n",
+    },
     {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
@@ -223,16 +222,13 @@ const competitiveSites = {
       profileLink: "https://www.hackerrank.com/aman_la_mart",
     },
     {
-        siteName: "Kaggle",
-        iconifyClassname: "simple-icons:kaggle",
-        style: {
-          color: "#1F8ACB",
-        },
-        profileLink: "https://www.kaggle.com/amanalisiddiqui",
+      siteName: "Kaggle",
+      iconifyClassname: "simple-icons:kaggle",
+      style: {
+        color: "#1F8ACB",
       },
-    
-    
-    
+      profileLink: "https://www.kaggle.com/amanalisiddiqui",
+    },
   ],
 };
 
@@ -377,6 +373,16 @@ const experience = {
     {
       title: "Internships",
       experiences: [
+        {
+          title: "Upcoming Summer Intern",
+          company: "Piramal Finance",
+          company_url: "https://www.sap.com/india/about/labs-india.html",
+          logo_path: "piramal_finance.jpeg",
+          duration: "May 2023 - July 2023",
+          location: "Bangalore",
+          description: "",
+          color: "#0879bf",
+        },
         {
           title: "Summer Intern",
           company: "SAP Labs India",
