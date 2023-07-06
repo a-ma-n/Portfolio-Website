@@ -37,7 +37,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/https://www.linkedin.com/in/-aman/",
+    link: "https://www.linkedin.com/in/-aman/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -58,10 +58,10 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Machine Learning, Android Development",
+      title: "Machine Learning, Android Development, Problem Solving & Cloud",
       fileName: "FullStackImg",
       skills: [
-        "📍 Training Machine Learning models and deploying them using Docker and Microsoft Azure",
+        "📍 Training Machine Learning and Deep Learning models and deploying them using Docker and Microsoft Azure",
         "📍 Experienced with creating Android Applications with  Kotlin and Firebase",
         "📍 Analysing and tuning Data Science Projects, Machine Learning & Deep Learing Models using Tensorflow",
         "📍 Process images with OpenCV and Deep Learning Models",
@@ -198,20 +198,20 @@ const competitiveSites = {
       profileLink: "https://leetcode.com/a-ma-n/",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/a_m_an",
-    },
-    {
       siteName: "Codeforces",
       iconifyClassname: "simple-icons:codeforces",
       style: {
         color: "#1F8ACB",
       },
       profileLink: "https://codeforces.com/profile/a-ma-n",
+    },
+    {
+      siteName: "Codechef",
+      iconifyClassname: "simple-icons:codechef",
+      style: {
+        color: "#5B4638",
+      },
+      profileLink: "https://www.codechef.com/users/a_m_an",
     },
     {
       siteName: "HackerRank",
@@ -374,7 +374,7 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Upcoming Summer Intern",
+          title: "Technical Intern",
           company: "Piramal Finance",
           company_url: "https://www.sap.com/india/about/labs-india.html",
           logo_path: "piramal_finance.jpeg",
@@ -384,7 +384,7 @@ const experience = {
           color: "#0879bf",
         },
         {
-          title: "Summer Intern",
+          title: "Machine Learning Intern",
           company: "SAP Labs India",
           company_url: "https://www.sap.com/india/about/labs-india.html",
           logo_path: "saplabs.jpeg",

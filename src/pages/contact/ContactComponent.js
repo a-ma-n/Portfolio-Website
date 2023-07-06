@@ -24,7 +24,10 @@ class Contact extends Component {
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-              <div className="contact-heading-img-div">
+              <div
+                className="contact-heading-img-div"
+                style={{ padding: "10%" }}
+              >
                 <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt="profile"
