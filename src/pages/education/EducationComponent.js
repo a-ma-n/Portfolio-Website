@@ -35,7 +35,7 @@ class Education extends Component {
                 style={{ display: "grid", margin: "auto" }}
               >
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Platforms To Find Me OpenCV
+                  Platforms To Find Me 
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>

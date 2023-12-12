@@ -74,13 +74,13 @@ const skills = {
             color: "#02569B",
           },
         },
-        {
-          skillName: "Sci-Kit Learn",
-          fontAwesomeClassname: "simple-icons:scikit-learn",
-          style: {
-            color: "#E34F26",
-          },
-        },
+        // {
+          // skillName: "Sci-Kit Learn",
+          // fontAwesomeClassname: "simple-icons:scikit-learn",
+          // style: {
+          //   color: "#E34F26",
+          // },
+        // },
         {
           skillName: "Flask",
           fontAwesomeClassname: "simple-icons:flask",
@@ -109,13 +109,13 @@ const skills = {
             color: "##00599C",
           },
         },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "##FF7800",
-          },
-        },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "simple-icons:java",
+        //   style: {
+        //     color: "##FF7800",
+        //   },
+        // },
         {
           skillName: "Kotlin",
           fontAwesomeClassname: "simple-icons:kotlin",
