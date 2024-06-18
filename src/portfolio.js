@@ -378,7 +378,7 @@ const experience = {
           company: "Piramal Finance",
           company_url: "https://www.sap.com/india/about/labs-india.html",
           logo_path: "piramal_finance.jpeg",
-          duration: "May 2023 - July 2023",
+          duration: "May 2023 - July 2023 & January 2024 - June 2024",
           location: "Bangalore",
           description: "",
           color: "#0879bf",
