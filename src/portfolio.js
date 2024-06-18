@@ -75,11 +75,11 @@ const skills = {
           },
         },
         // {
-          // skillName: "Sci-Kit Learn",
-          // fontAwesomeClassname: "simple-icons:scikit-learn",
-          // style: {
-          //   color: "#E34F26",
-          // },
+        // skillName: "Sci-Kit Learn",
+        // fontAwesomeClassname: "simple-icons:scikit-learn",
+        // style: {
+        //   color: "#E34F26",
+        // },
         // },
         {
           skillName: "Flask",
@@ -380,7 +380,8 @@ const experience = {
           logo_path: "piramal_finance.jpeg",
           duration: "May 2023 - July 2023 & January 2024 - June 2024",
           location: "Bangalore",
-          description: "",
+          description:
+            "Worked on metrics dashboard website which shows different metrics for tests & automation thorughout the organisation, using React, Redux, Material UI, Spring Boot, MongoDB, JQL & ChartJS. Reduced the fetching time of APIs by more than 65% with parallelization. Reduced site load times from 22s to 7s. Created Gen AI APIs & UIs in NextJS for generating test data.",
           color: "#0879bf",
         },
         {
@@ -511,6 +512,34 @@ const experience = {
           company_url: "",
           logo_path: "mlsabadge.jpeg",
           duration: "October 2021",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+      ],
+    },
+    {
+      title: "Research Papers",
+      experiences: [
+        {
+          title: "Converting SAR Images to Optical Images Using CycleGAN",
+          company:
+            " 2024 Second International Conference on Emerging Trends in Information Technology and Engineering (ICETITE)",
+          company_url: "https://ieeexplore.ieee.org/document/10493784",
+          logo_path: "honeywell.png",
+          duration: "April 2022",
+          location: "",
+          description: "",
+          color: "#4285F4",
+        },
+        {
+          title:
+            "Visualizing Optimal Classifiers in EEG-Based Sleepy Driver Prediction",
+          company:
+            "Third International Conference, ANTIC 2023, Varanasi, India, December 20-22, 2023, Proceedings, Part III",
+          company_url: "https://link.springer.com/book/9783031640698",
+          logo_path: "",
+          duration: "Feburary 2024",
           location: "",
           description: "",
           color: "#4285F4",
